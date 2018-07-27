@@ -1,0 +1,913 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="./img/favicon.png" rel="shortcut icon"/>
+        <meta charset="utf-8"/>
+        <meta content="width=1440px, maximum-scale=1.0" name="viewport"/>
+        <link href="./css/desktopHd.css" rel="stylesheet" type="text/css"/>
+        <meta content="Launchpad by ev" name="author">
+        </meta>
+    </head>
+    <body style="margin: 0;
+ background: rgba(255, 255, 255, 1.0);">
+        <input id="anPageName" name="page" type="hidden" value="desktophd"/>
+        <div class="desktophd">
+            <div style="width: 1440px; height: 100%; position:relative; margin:auto;">
+                <div class="rectangle45">
+                </div>
+                <div class="rectangle451">
+                </div>
+                <div class="rectangle452">
+                </div>
+                <div class="rectangle453">
+                </div>
+                <div class="rectangle454">
+                </div>
+                <div class="rectangle455">
+                </div>
+                <div class="rectangle456">
+                </div>
+                <div class="tellusalittleabo">
+                    Tell us a little about yourself
+                </div>
+                <div class="rectangle46">
+                </div>
+                <div class="rectangle461">
+                </div>
+                <div class="rectangle44">
+                </div>
+                <div class="emailaddress">
+                    Email Address
+                </div>
+                <div class="fullname">
+                    Full Name
+                </div>
+                <div class="education">
+                    Education
+                </div>
+                <div class="zipcode">
+                    Zipcode
+                </div>
+                <div class="username">
+                    Username
+                </div>
+                <div class="password">
+                    Password
+                </div>
+                <div class="picksubjects">
+                    Pick Subjects
+                </div>
+                <div class="rectangle47">
+                </div>
+                <div class="searchclasses">
+                    Search Classes
+                </div>
+                <div class="rectangle48">
+                </div>
+                <div class="rectangle481">
+                </div>
+                <div class="rectangle482">
+                </div>
+                <div class="rectangle483">
+                </div>
+                <div class="rectangle484">
+                </div>
+                <div class="rectangle485">
+                </div>
+                <div class="rectangle486">
+                </div>
+                <div class="rectangle487">
+                </div>
+                <div class="rectangle488">
+                </div>
+                <div class="rectangle489">
+                </div>
+                <div class="rectangle4810">
+                </div>
+                <div class="rectangle4811">
+                </div>
+                <div id="ADD1" onclick="class1add()" class="rectangle4812">
+
+                </div>
+                <div id="ADD2" onclick="class2add()" class="rectangle4813">
+
+                </div>
+                <div id="ADD3" onclick="class3add()" class="rectangle4814">
+
+                </div>
+                <div id="ADD4" onclick="class4add()" class="rectangle4815">
+
+                </div>
+                <div id="ADD5" onclick="class5add()" class="rectangle4816">
+
+                </div>
+                <div id="ADD6" onclick="class6add()" class="rectangle4817">
+
+                </div>
+                <div id="ADD8" onclick="class8add()" class="rectangle4818">
+
+                </div>
+                <div id="ADD9" onclick="class9add()" class="rectangle4819">
+
+                </div>
+                <div id="ADD7" onclick="class7add()" class="rectangle4820">
+
+                </div>
+                <div id="ADD10" onclick="class10add()" class="rectangle4821">
+
+                </div>
+                <div id="ADDCH4H" onclick="CHfourADD()" class="chinese4H">
+                    Chinese 4H
+                </div>
+                <div id="ADDENG3" onclick="ENG3ADD()" class="english3">
+                    English 3
+                </div>
+                <div id="ADDpreCALCH" onclick="PRECALCHADD()" class="precalcH">
+                    Precalc H
+                </div>
+                <div id="ADDUSHIS" onclick="USHISADD()" class="ushistory">
+                    US History
+                </div>
+                <div id="ADDAP" onclick="APADD()" class="ap">
+                    A &amp; P
+                </div>
+                <div id="ADDPHY" onclick="PHYADD()" class="physics">
+                    Physics
+                </div>
+                <div class="donu2019tseeyourclass">
+                    Don’t see your class? Add it here
+                </div>
+                <div class="rectangle49">
+                </div>
+            </div>
+        </div>
+        <!-- Scripts -->
+        <script>
+            ev_isHidden = function(e) {
+                if (!(e instanceof HTMLElement)) return !1;
+                if (getComputedStyle(e).display == "none") return !0; else if (e.parentNode && ev_isHidden(e.parentNode)) return !0;
+                return !1;
+            };
+            ev_loadAsyncSrcForTag = function(tag) {
+                var elements = document.getElementsByTagName(tag);
+                var toLoad = [];
+                for (var i = 0; i < elements.length; i++) {
+                    var e = elements[i];
+                    var src = e.getAttribute("src");
+                    var loaded = (src != undefined && src.length > 0 && src != 'data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==');
+                    if (loaded) continue;
+                    var asyncSrc = e.getAttribute("ev-src");
+                    if (asyncSrc == undefined || asyncSrc.length == 0) continue;
+                    if (ev_isHidden(e)) continue;
+                    toLoad.push(e);
+                }
+                toLoad.sort(function(a, b) {
+                    return ev_getTop(a) - ev_getTop(b);
+                });
+                for (var i = 0; i < toLoad.length; i++) {
+                    var e = toLoad[i];
+                    var asyncSrc = e.getAttribute("ev-src");
+                    e.setAttribute("src", asyncSrc);
+                }
+            };
+            ev_pauseHiddenVideos = function(tag) {
+                var elements = document.getElementsByTagName("video");
+                for (var i = 0; i < elements.length; i++) {
+                    var e = elements[i];
+                    var isPlaying = !!(e.currentTime > 0 && !e.paused && !e.ended && e.readyState > 2);
+                    var isHidden = ev_isHidden(e);
+                    if (!isPlaying && !isHidden && e.getAttribute("autoplay") == "autoplay") {
+                        e.play();
+                    } else if (isPlaying && isHidden) {
+                        e.pause();
+                    }
+                }
+            };
+            ev_loadAsyncSrc = function(tag) {
+                ev_loadAsyncSrcForTag("img");
+                ev_loadAsyncSrcForTag("iframe");
+                ev_loadAsyncSrcForTag("video");
+                ev_pauseHiddenVideos();
+            };
+            var ev_getTop = function(e) {
+                var top = 0;
+                do {
+                    top += e.offsetTop || 0;
+                    e = e.offsetParent;
+                } while (e);
+                return top;
+            };
+            ev_loadAsyncSrc();
+            ev_old_onResize = window.onresize;
+            ev_new_onResize = undefined;
+            ev_updateOnResize = function() {
+                if (ev_new_onResize == undefined || window.onresize != ev_new_onResize) {
+                    ev_new_onResize = function(x) {
+                        if (ev_old_onResize != undefined) ev_old_onResize(x);
+                        ev_loadAsyncSrc();
+                    };
+                    window.onresize = ev_new_onResize;
+                    setTimeout(function() {
+                        ev_updateOnResize();
+                    }, 3000);
+                }
+            };
+            ev_updateOnResize();
+            setTimeout(function() {
+                ev_loadAsyncSrc();
+            }, 200);
+            var class1space = 1;
+            var class2space = 1;
+            var class3space = 1;
+            var class4space = 1;
+            var class5space = 1;
+            var class6space = 1;
+            var class7space = 1;
+            var class8space = 1;
+            var class9space = 1;
+            var class10space = 1;
+            var class1 = null;
+            var class2 = null;
+            var class3 = null;
+            var class4 = null;
+            var class5 = null;
+            var class6 = null;
+            var class7 = null;
+            var class8 = null;
+            var class9 = null;
+            var class10 = null;
+            var chinese4hfree = 1;
+            var english3free = 1;
+            var precalcHfree = 1;
+            var UShisfree = 1;
+            var APfree = 1;
+            var phyfree = 1;
+            function CHfourADD() {
+         if (class1space == 1 && chinese4hfree === 1){
+          class1space -= 1;
+          chinese4hfree -= 1;
+           document.getElementById("ADD1").innerHTML = "Chinese 4H";
+           class1 = Chinese4H;
+         }
+         else if (class2space == 1 && chinese4hfree === 1){
+           document.getElementById("ADD2").innerHTML = "Chinese 4H";
+           class2space -= 1;
+           chinese4hfree -= 1;
+           class2 = Chinese4H;
+
+         }
+         else if (class3space == 1 && chinese4hfree == 1){
+           document.getElementById("ADD3").innerHTML = "Chinese 4H";
+           class3space -= 1;
+           chinese4hfree -= 1;
+           class3 = Chinese4H;
+
+         }
+         else if (class4space == 1 && chinese4hfree == 1){
+           document.getElementById("ADD4").innerHTML = "Chinese 4H";
+           class4space -= 1;
+           chinese4hfree -= 1;
+           class4 = Chinese4H;
+
+         }
+         else if (class5space == 1 && chinese4hfree == 1){
+           document.getElementById("ADD5").innerHTML = "Chinese 4H";
+           class5space -= 1;
+           chinese4hfree -= 1;
+           class5 = Chinese4H;
+
+         }
+         else if (class6space == 1 && chinese4hfree == 1){
+           document.getElementById("ADD6").innerHTML = "Chinese 4H";
+           class6space -= 1;
+           chinese4hfree -= 1;
+           class6 = Chinese4H;
+
+         }
+         else if (class7space == 1 && chinese4hfree == 1){
+           document.getElementById("ADD7").innerHTML = "Chinese 4H";
+           class7space -= 1;
+           chinese4hfree -= 1;
+           class7 = Chinese4H;
+
+         }
+         else if (class8space == 1 && chinese4hfree == 1){
+           document.getElementById("ADD8").innerHTML = "Chinese 4H";
+           class8space -= 1;
+           chinese4hfree -= 1;
+           class8 = Chinese4H;
+
+         }
+         else if (class9space == 1 && chinese4hfree == 1){
+           document.getElementById("ADD9").innerHTML = "Chinese 4H";
+           class9space -= 1;
+           chinese4hfree -= 1;
+           class9 = Chinese4H;
+
+         }
+         else if (class10space == 1 && chinese4hfree == 1){
+           document.getElementById("ADD10").innerHTML = "Chinese 4H";
+           class10space -= 1;
+           chinese4hfree -= 1;
+           class10 = Chinese4H;
+
+         }
+       }
+       function ENG3ADD() {
+    if (class1space == 1 && english3free === 1){
+     class1space -= 1;
+     english3free -= 1;
+      document.getElementById("ADD1").innerHTML = "English 3";
+      class1 = English3;
+    }
+    else if (class2space == 1 && english3free === 1){
+      document.getElementById("ADD2").innerHTML = "English 3";
+      class2space -= 1;
+      english3free -= 1;
+      class2 = English3;
+
+    }
+    else if (class3space == 1 && engish3free == 1){
+      document.getElementById("ADD3").innerHTML = "English 3";
+      class3space -= 1;
+      english3free -= 1;
+      class3 = English3;
+
+    }
+    else if (class4space == 1 && english3free == 1){
+      document.getElementById("ADD4").innerHTML = "English 3";
+      class4space -= 1;
+      english3free -= 1;
+      class4 = English3;
+
+    }
+    else if (class5space == 1 && english3free == 1){
+      document.getElementById("ADD5").innerHTML = "English 3";
+      class5space -= 1;
+      english3free -= 1;
+      class5 = English3;
+
+    }
+    else if (class6space == 1 && english3free == 1){
+      document.getElementById("ADD6").innerHTML = "English 3";
+      class6space -= 1;
+      english3free -= 1;
+      class6 = English3;
+
+    }
+    else if (class7space == 1 && english3free == 1){
+      document.getElementById("ADD7").innerHTML = "English 3";
+      class7space -= 1;
+      english3free -= 1;
+      class7 = English3;
+
+    }
+    else if (class8space == 1 && english3free == 1){
+      document.getElementById("ADD8").innerHTML = "English 3";
+      class8space -= 1;
+      english3free -= 1;
+      class8 = English3;
+
+    }
+    else if (class9space == 1 && english3free == 1){
+      document.getElementById("ADD9").innerHTML = "English 3";
+      class9space -= 1;
+      english3free -= 1;
+      class9 = English3;
+
+    }
+    else if (class10space == 1 && english3free == 1){
+      document.getElementById("ADD10").innerHTML = "English 3";
+      class10space -= 1;
+      english3free -= 1;
+      class10 = ENglish3;
+
+    }
+  }
+  function PRECALCHADD() {
+if (class1space == 1 && precalcHfree === 1){
+class1space -= 1;
+precalcHfree -= 1;
+ document.getElementById("ADD1").innerHTML = "Precalc H";
+ class1 = PrecalcH;
+}
+else if (class2space == 1 && precalcHfree === 1){
+ document.getElementById("ADD2").innerHTML = "Precalc H";
+ class2space -= 1;
+ precalcHfree -= 1;
+ class2 = PrecalcH;
+
+}
+else if (class3space == 1 && precalcHfree == 1){
+ document.getElementById("ADD3").innerHTML = "Precalc H";
+ class3space -= 1;
+ precalcHfree -= 1;
+ class3 = PrecalcH;
+
+}
+else if (class4space == 1 && precalcHfree == 1){
+ document.getElementById("ADD4").innerHTML = "Precalc H";
+ class4space -= 1;
+ precalcHfree -= 1;
+ class4 = PrecalcH;
+
+}
+else if (class5space == 1 && precalcHfree == 1){
+ document.getElementById("ADD5").innerHTML = "Precalc H";
+ class5space -= 1;
+ precalcHfree -= 1;
+ class5 = PrecalcH;
+
+}
+else if (class6space == 1 && precalcHfree == 1){
+ document.getElementById("ADD6").innerHTML = "Precalc H";
+ class6space -= 1;
+ precalcHfree -= 1;
+ class6 = PrecalcH;
+
+}
+else if (class7space == 1 && precalcHfree == 1){
+ document.getElementById("ADD7").innerHTML = "Precalc H";
+ class7space -= 1;
+ precalcHfree -= 1;
+ class7 = PrecalcH;
+
+}
+else if (class8space == 1 && precalcHfree == 1){
+ document.getElementById("ADD8").innerHTML = "Precalc H";
+ class8space -= 1;
+ precalcHfree -= 1;
+ class8 = PrecalcH;
+
+}
+else if (class9space == 1 && precalcHfree == 1){
+ document.getElementById("ADD9").innerHTML = "Precalc H";
+ class9space -= 1;
+ precalcHfree -= 1;
+ class9 = PrecalcH;
+
+}
+else if (class10space == 1 && precalcHfree == 1){
+ document.getElementById("ADD10").innerHTML = "Precalc H";
+ class10space -= 1;
+ precalcHfree -= 1;
+ class10 = PrecalcH;
+
+}
+}
+function USHISADD() {
+if (class1space == 1 && UShisfree === 1){
+class1space -= 1;
+UShisfree -= 1;
+document.getElementById("ADD1").innerHTML = "US History";
+class1 = USHistory;
+}
+else if (class2space == 1 && UShisfree === 1){
+document.getElementById("ADD2").innerHTML = "US History";
+class2space -= 1;
+UShisfree -= 1;
+class2 = USHistory;
+
+}
+else if (class3space == 1 && UShisfree == 1){
+document.getElementById("ADD3").innerHTML = "US History";
+class3space -= 1;
+UShisfree -= 1;
+class3 = USHistory;
+
+}
+else if (class4space == 1 && UShisfree == 1){
+document.getElementById("ADD4").innerHTML = "US History";
+class4space -= 1;
+UShisfree -= 1;
+class4 = USHistory;
+
+}
+else if (class5space == 1 && UShisfree == 1){
+document.getElementById("ADD5").innerHTML = "US History";
+class5space -= 1;
+UShisfree -= 1;
+class5 = USHistory;
+
+}
+else if (class6space == 1 && UShisfree == 1){
+document.getElementById("ADD6").innerHTML = "US History";
+class6space -= 1;
+UShisfree -= 1;
+class6 = USHistory;
+
+}
+else if (class7space == 1 && UShisfree == 1){
+document.getElementById("ADD7").innerHTML = "US History";
+class7space -= 1;
+UShisfree -= 1;
+class7 = USHistory;
+
+}
+else if (class8space == 1 && UShisfree == 1){
+document.getElementById("ADD8").innerHTML = "US History";
+class8space -= 1;
+UShisfree -= 1;
+class8 = USHistory;
+
+}
+else if (class9space == 1 && UShisfree == 1){
+document.getElementById("ADD9").innerHTML = "US History";
+class9space -= 1;
+UShisfree -= 1;
+class9 = USHistory;
+
+}
+else if (class10space == 1 && UShisfree == 1){
+document.getElementById("ADD10").innerHTML = "US History";
+class10space -= 1;
+UShisfree -= 1;
+class10 = USHistory;
+
+}
+}
+function APADD() {
+if (class1space == 1 && APfree === 1){
+class1space -= 1;
+UShisfree -= 1;
+document.getElementById("ADD1").innerHTML = "A & P";
+class1 = AP;
+}
+else if (class2space == 1 && APfree === 1){
+document.getElementById("ADD2").innerHTML = "A & P";
+class2space -= 1;
+APfree -= 1;
+class2 = AP;
+
+}
+else if (class3space == 1 && APfree == 1){
+document.getElementById("ADD3").innerHTML = "A & P";
+class3space -= 1;
+APfree -= 1;
+class3 = AP;
+
+}
+else if (class4space == 1 && APfree == 1){
+document.getElementById("ADD4").innerHTML = "A & P";
+class4space -= 1;
+APfree -= 1;
+class4 = AP;
+
+}
+else if (class5space == 1 && APfree == 1){
+document.getElementById("ADD5").innerHTML = "A & P";
+class5space -= 1;
+APfree -= 1;
+class5 = AP;
+
+}
+else if (class6space == 1 && APfree == 1){
+document.getElementById("ADD6").innerHTML = "A & P";
+class6space -= 1;
+APfree -= 1;
+class6 = AP;
+
+}
+else if (class7space == 1 && APfree == 1){
+document.getElementById("ADD7").innerHTML = "A & P";
+class7space -= 1;
+APfree -= 1;
+class7 = AP;
+
+}
+else if (class8space == 1 && APfree == 1){
+document.getElementById("ADD8").innerHTML = "A & P";
+class8space -= 1;
+APfree -= 1;
+class8 = AP;
+
+}
+else if (class9space == 1 && APfree == 1){
+document.getElementById("ADD9").innerHTML = "A & P";
+class9space -= 1;
+APfree -= 1;
+class9 = AP;
+
+}
+else if (class10space == 1 && APfree == 1){
+document.getElementById("ADD10").innerHTML = "A & P";
+class10space -= 1;
+APfree -= 1;
+class10 = AP;
+
+}
+}
+function PHYADD() {
+if (class1space == 1 && phyfree === 1){
+class1space -= 1;
+phyfree -= 1;
+document.getElementById("ADD1").innerHTML = "Physics";
+class1 = physics;
+}
+else if (class2space == 1 && phyfree === 1){
+document.getElementById("ADD2").innerHTML = "Physics";
+class2space -= 1;
+phyfree -= 1;
+class2 = physics;
+
+}
+else if (class3space == 1 && phyfree == 1){
+document.getElementById("ADD3").innerHTML = "Physics";
+class3space -= 1;
+phyfree -= 1;
+class3 = physics;
+
+}
+else if (class4space == 1 && phyfree == 1){
+document.getElementById("ADD4").innerHTML = "Physics";
+class4space -= 1;
+phyfree -= 1;
+class4 = physics;
+
+}
+else if (class5space == 1 && phyfree == 1){
+document.getElementById("ADD5").innerHTML = "Physics";
+class5space -= 1;
+phyfree -= 1;
+class5 = physics;
+
+}
+else if (class6space == 1 && phyfree == 1){
+document.getElementById("ADD6").innerHTML = "Physics";
+class6space -= 1;
+phyfree -= 1;
+class6 = physics;
+
+}
+else if (class7space == 1 && phyfree == 1){
+document.getElementById("ADD7").innerHTML = "Physics";
+class7space -= 1;
+phyfree -= 1;
+class7 = physics;
+
+}
+else if (class8space == 1 && phyfree == 1){
+document.getElementById("ADD8").innerHTML = "Physics";
+class8space -= 1;
+phyfree -= 1;
+class8 = physics;
+
+}
+else if (class9space == 1 && phyfree == 1){
+document.getElementById("ADD9").innerHTML = "Physics";
+class9space -= 1;
+phyfree -= 1;
+class9 = physics;
+
+}
+else if (class10space == 1 && phyfree == 1){
+document.getElementById("ADD10").innerHTML = "Physics";
+class10space -= 1;
+phyfree -= 1;
+class10 = physics;
+
+}
+}
+         function class1add(){
+           if (class1space != 1){
+             document.getElementById("ADD1").innerHTML = " ";
+             class1space += 1;
+           }
+           if (chinese4hfree != 1){
+             chinese4hfree = 1;
+           }
+           if (english3free != 1){
+             english3free = 1;
+           }
+           if (precalcHfree != 1){
+             precalcHfree = 1;
+           }
+           if (UShisfree != 1){
+             UShisfree = 1;
+           }
+           if (APfree != 1){
+             APfree = 1;
+           }
+           if (phyfree != 1){
+             phyfree = 1;
+           }
+         }
+         function class2add(){
+           if (class2space != 1){
+             document.getElementById("ADD2").innerHTML = " ";
+             class2space += 1;
+           }
+           if (chinese4hfree != 1){
+             chinese4hfree = 1;
+           }
+           if (english3free != 1){
+             english3free = 1;
+           }
+           if (precalcHfree != 1){
+             precalcHfree = 1;
+           }
+           if (UShisfree != 1){
+             UShisfree = 1;
+           }
+           if (APfree != 1){
+             APfree = 1;
+           }
+           if (phyfree != 1){
+             phyfree = 1;
+           }
+         }
+         function class3add(){
+           if (class3space != 1){
+             document.getElementById("ADD3").innerHTML = " ";
+             class3space += 1;
+           }
+           if (chinese4hfree != 1){
+             chinese4hfree = 1;
+           }
+           if (english3free != 1){
+             english3free = 1;
+           }
+           if (precalcHfree != 1){
+             precalcHfree = 1;
+           }
+           if (UShisfree != 1){
+             UShisfree = 1;
+           }
+           if (APfree != 1){
+             APfree = 1;
+           }
+           if (phyfree != 1){
+             phyfree = 1;
+           }
+         }
+         function class4add(){
+           if (class4space != 1){
+             document.getElementById("ADD4").innerHTML = " ";
+             class4space += 1;
+           }
+           if (chinese4hfree != 1){
+             chinese4hfree = 1;
+           }
+           if (english3free != 1){
+             english3free = 1;
+           }
+           if (precalcHfree != 1){
+             precalcHfree = 1;
+           }
+           if (UShisfree != 1){
+             UShisfree = 1;
+           }
+           if (APfree != 1){
+             APfree = 1;
+           }
+           if (phyfree != 1){
+             phyfree = 1;
+           }
+         }
+         function class5add(){
+           if (class5space != 1){
+             document.getElementById("ADD5").innerHTML = " ";
+             class5space += 1;
+           }
+           if (chinese4hfree != 1){
+             chinese4hfree = 1;
+           }
+           if (english3free != 1){
+             english3free = 1;
+           }
+           if (precalcHfree != 1){
+             precalcHfree = 1;
+           }
+           if (UShisfree != 1){
+             UShisfree = 1;
+           }
+           if (APfree != 1){
+             APfree = 1;
+           }
+           if (phyfree != 1){
+             phyfree = 1;
+           }
+         }
+         function class6add(){
+           if (class6space != 1){
+             document.getElementById("ADD6").innerHTML = " ";
+             class6space += 1;
+           }
+           if (chinese4hfree != 1){
+             chinese4hfree = 1;
+           }
+           if (english3free != 1){
+             english3free = 1;
+           }
+           if (precalcHfree != 1){
+             precalcHfree = 1;
+           }
+           if (UShisfree != 1){
+             UShisfree = 1;
+           }
+           if (APfree != 1){
+             APfree = 1;
+           }
+           if (phyfree != 1){
+             phyfree = 1;
+           }
+         }
+         function class7add(){
+           if (class7space != 1){
+             document.getElementById("ADD7").innerHTML = " ";
+             class7space += 1;
+           }
+           if (chinese4hfree != 1){
+             chinese4hfree = 1;
+           }
+           if (english3free != 1){
+             english3free = 1;
+           }
+           if (precalcHfree != 1){
+             precalcHfree = 1;
+           }
+           if (UShisfree != 1){
+             UShisfree = 1;
+           }
+           if (APfree != 1){
+             APfree = 1;
+           }
+           if (phyfree != 1){
+             phyfree = 1;
+           }
+         }
+         function class8add(){
+           if (class8space != 1){
+             document.getElementById("ADD8").innerHTML = " ";
+             class8space += 1;
+           }
+           if (chinese4hfree != 1){
+             chinese4hfree = 1;
+           }
+           if (english3free != 1){
+             english3free = 1;
+           }
+           if (precalcHfree != 1){
+             precalcHfree = 1;
+           }
+           if (UShisfree != 1){
+             UShisfree = 1;
+           }
+           if (APfree != 1){
+             APfree = 1;
+           }
+           if (phyfree != 1){
+             phyfree = 1;
+           }
+         }
+         function class9add(){
+           if (class9space != 1){
+             document.getElementById("ADD9").innerHTML = " ";
+             class9space += 1;
+           }
+           if (chinese4hfree != 1){
+             chinese4hfree = 1;
+           }
+           if (english3free != 1){
+             english3free = 1;
+           }
+           if (precalcHfree != 1){
+             precalcHfree = 1;
+           }
+           if (UShisfree != 1){
+             UShisfree = 1;
+           }
+           if (APfree != 1){
+             APfree = 1;
+           }
+           if (phyfree != 1){
+             phyfree = 1;
+           }
+         }
+         function class10add(){
+           if (class10space != 1){
+             document.getElementById("ADD10").innerHTML = " ";
+             class10space += 1;
+           }
+           if (chinese4hfree != 1){
+             chinese4hfree = 1;
+           }
+           if (english3free != 1){
+             english3free = 1;
+           }
+           if (precalcHfree != 1){
+             precalcHfree = 1;
+           }
+           if (UShisfree != 1){
+             UShisfree = 1;
+           }
+           if (APfree != 1){
+             APfree = 1;
+           }
+           if (phyfree != 1){
+             phyfree = 1;
+           }
+         }
+        </script>
+    </body>
+</html>
