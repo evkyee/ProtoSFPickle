@@ -1,0 +1,601 @@
+
+
+.desktophdcopy4 {
+  width               : 100%;
+  min-width           : 1440px;
+  height              : 100vh;
+  min-height          : 1024px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  background-color    : rgba(255, 255, 255, 1.0);
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.desktophdcopy4 .rectangle2 {
+  background-color    : rgba(150, 69, 69, 1.0);
+  top                 : 0px;
+  height              : 118px;
+  width               : 1441px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(150, 150, 150, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.desktophdcopy4 .classmenu {
+  background-color    : rgba(150, 69, 100, 0.0);
+  top                 : 0px;
+  height              : 118px;
+  width               : 1100px;
+  position            : absolute;
+  margin              : 0;
+  left                : 155px;
+  border-style        : solid;
+  border-width        : 0px;
+  border-color        : rgba(150, 150, 150, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  overflow-x: auto;
+    white-space: nowrap;
+}
+div.classmenu a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+    text-decoration: none;
+    background-color    : rgba(255, 255, 255, 0.0);
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+    font-family         : "AvenirNext-Medium", Helvetica, Arial, serif;
+    font-size           : 20.0px;
+    color               : rgba(255, 255, 255, 1.0);
+    text-align          : justify;
+    line-height         : 27.0px;
+  }
+}
+
+div.classmenu a:hover {
+    background-color: #777;
+}
+.desktophdcopy4 .rectangle2 {
+  background-color    : rgba(150, 69, 69, 1.0);
+  top                 : 0px;
+  height              : 118px;
+  width               : 1441px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(150, 150, 150, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.desktophdcopy4 .class2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 46px;
+  height              : auto;
+  width               : 156px;
+  position            : absolute;
+  margin              : 0;
+  left                : 395px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "AvenirNext-Medium", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : justify;
+  line-height         : 27.0px;
+}
+.desktophdcopy4 .class3 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 46px;
+  height              : auto;
+  width               : 185px;
+  position            : absolute;
+  margin              : 0;
+  left                : 629px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "AvenirNext-Medium", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : justify;
+  line-height         : 27.0px;
+}
+.desktophdcopy4 .class1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 46px;
+  height              : auto;
+  width               : 97px;
+  position            : absolute;
+  margin              : 0;
+  left                : 219px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "AvenirNext-Medium", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : justify;
+  line-height         : 27.0px;
+}
+.desktophdcopy4 .class4 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 46px;
+  height              : auto;
+  width               : 78px;
+  position            : absolute;
+  margin              : 0;
+  left                : 893px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "AvenirNext-Medium", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : justify;
+  line-height         : 27.0px;
+}
+.desktophdcopy4 .oval {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 45px;
+  height              : 41px;
+  width               : 44px;
+  position            : absolute;
+  margin              : 0;
+  left                : 76px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.desktophdcopy4 .class4 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 46px;
+  height              : auto;
+  width               : 59px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1049px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "AvenirNext-Medium", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : justify;
+  line-height         : 27.0px;
+}
+.desktophdcopy4 .rectangle5 {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 117px;
+  height              : 94px;
+  width               : 1441px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(150, 150, 150, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.desktophdcopy4 .rectangle51 input[type=text] {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 129px;
+  height              : 57px;
+  width               : 1330px;
+  position            : absolute;
+  margin              : 0;
+  left                : 55px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(150, 150, 150, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  text-align:center;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 20px;
+}
+.desktophdcopy4 .path3 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 143px;
+  height              : 1px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 718px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.desktophdcopy4 .label1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 42px;
+  height              : auto;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1187px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "AvenirNext-Medium", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : justify;
+  line-height         : 33.0px;
+}
+.desktophdcopy4 .oval3 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 43px;
+  height              : 31px;
+  width               : 33px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1322px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.desktophdcopy4 .path17 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 312px;
+  height              : 2px;
+  width               : 1301px;
+  position            : absolute;
+  margin              : 0;
+  left                : 66px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.desktophdcopy4 .path171 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 512px;
+  height              : 2px;
+  width               : 1301px;
+  position            : absolute;
+  margin              : 0;
+  left                : 70px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.desktophdcopy4 .path172 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 711px;
+  height              : 2px;
+  width               : 1301px;
+  position            : absolute;
+  margin              : 0;
+  left                : 70px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.desktophdcopy4 .path173 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 910px;
+  height              : 2px;
+  width               : 1301px;
+  position            : absolute;
+  margin              : 0;
+  left                : 70px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.desktophdcopy4 .exploretutorsandg {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 238px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 500px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "AvenirNext-Medium", Helvetica, Arial, serif;
+  font-size           : 36.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : justify;
+  line-height         : 49.0px;
+}
+.desktophdcopy4 .rectangle7 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 318px;
+  height              : 189px;
+  width               : 233px;
+  position            : absolute;
+  margin              : 0;
+  left                : 313px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.desktophdcopy4 .rectangle71 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 318px;
+  height              : 189px;
+  width               : 233px;
+  position            : absolute;
+  margin              : 0;
+  left                : 607px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.desktophdcopy4 .rectangle72 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 318px;
+  height              : 189px;
+  width               : 233px;
+  position            : absolute;
+  margin              : 0;
+  left                : 901px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.desktophdcopy4 .class1studygroups {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 373px;
+  height              : auto;
+  width               : 201px;
+  position            : absolute;
+  margin              : 0;
+  left                : 77px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "AvenirNext-Medium", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : justify;
+  line-height         : 33.0px;
+}
+.desktophdcopy4 .rectangle73 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 517px;
+  height              : 189px;
+  width               : 233px;
+  position            : absolute;
+  margin              : 0;
+  left                : 313px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.desktophdcopy4 .rectangle74 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 517px;
+  height              : 189px;
+  width               : 233px;
+  position            : absolute;
+  margin              : 0;
+  left                : 607px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.desktophdcopy4 .rectangle75 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 517px;
+  height              : 189px;
+  width               : 233px;
+  position            : absolute;
+  margin              : 0;
+  left                : 901px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.desktophdcopy4 .class2tutorsbased {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 572px;
+  height              : auto;
+  width               : 201px;
+  position            : absolute;
+  margin              : 0;
+  left                : 77px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "AvenirNext-Medium", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : justify;
+  line-height         : 33.0px;
+}
+.desktophdcopy4 .rectangle76 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 716px;
+  height              : 189px;
+  width               : 233px;
+  position            : absolute;
+  margin              : 0;
+  left                : 313px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.desktophdcopy4 .rectangle77 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 716px;
+  height              : 189px;
+  width               : 233px;
+  position            : absolute;
+  margin              : 0;
+  left                : 607px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.desktophdcopy4 .rectangle78 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 716px;
+  height              : 189px;
+  width               : 233px;
+  position            : absolute;
+  margin              : 0;
+  left                : 901px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.desktophdcopy4 .suggestedclass3q {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 754px;
+  height              : auto;
+  width               : 201px;
+  position            : absolute;
+  margin              : 0;
+  left                : 77px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "AvenirNext-Medium", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : justify;
+  line-height         : 33.0px;
+}
+.desktophdcopy4 .path18 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 348px;
+  height              : 114px;
+  width               : 64px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1227px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.desktophdcopy4 .path181 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 552px;
+  height              : 113px;
+  width               : 64px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1227px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.desktophdcopy4 .path182 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 753px;
+  height              : 113px;
+  width               : 64px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1227px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+/* .ev-evte-appear prefix for appear evtions */
+.ev-evte-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-evtion   : ev-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-evtion      : ev-reveal 0.3s ease-in 1 normal forwards;
+  -o-evtion        : ev-reveal 0.3s ease-in-out 1 normal forwards;
+  evtion           : ev-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.ev-evte-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-evtion   : ev-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-evtion      : ev-reveal 0.3s ease-in 1 normal forwards;
+  -o-evtion        : ev-reveal 0.3s ease-in-out 1 reverse forwards;
+  evtion           : ev-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.ev-evte-nodelay {
+  -webkit-evtion-delay: 0;
+  -moz-evtion-delay: 0;
+  -o-evtion-delay  : 0;
+  evtion-delay     : 0;
+}
+@-webkit-keyframes ev-reveal {
+  0%
+
+  {
+      opacity: 0;
+    }
+
+
+  100%
+
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes ev-reveal {
+  0%
+
+  {
+      opacity: 0;
+    }
+
+
+  100%
+
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes ev-reveal {
+  0%
+
+  {
+      opacity: 0;
+    }
+
+
+  100%
+
+  {
+      opacity: 1;
+    }
+}
+@keyframes ev-reveal {
+  0%
+
+  {
+      opacity: 0;
+    }
+
+
+  100%
+
+  {
+      opacity: 1;
+    }
+}
