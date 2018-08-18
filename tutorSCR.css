@@ -1,0 +1,143 @@
+
+
+.tutorscr {
+  width               : 100%;
+  min-width           : 1024px;
+  height              : 100vh;
+  min-height          : 1024px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  background-color    : rgba(255, 255, 255, 1.0);
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.tutorscr .fountainpenicon614x460 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 230px;
+  height              : 225px;
+  width               : 300px;
+  position            : absolute;
+  margin              : 0;
+  left                : 363px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.tutorscr .tutor {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 432px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 455px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "AvenirNext-Medium", Helvetica, Arial, serif;
+  font-size           : 48.0px;
+  color               : rgba(36, 97, 15, 1.0);
+  text-align          : center;
+  line-height         : 66.0px;
+}
+.tutorscr .seekprofessionalac {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 525px;
+  height              : auto;
+  width               : 837px;
+  position            : absolute;
+  margin              : 0;
+  left                : 95px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "AvenirNext-Medium", Helvetica, Arial, serif;
+  font-size           : 30.0px;
+  color               : rgba(36, 97, 15, 1.0);
+  text-align          : center;
+  line-height         : 41.0px;
+}
+/* .pickl-picklte-appear prefix for appear pickltions */
+.pickl-picklte-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-pickltion   : pickl-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-pickltion      : pickl-reveal 0.3s ease-in 1 normal forwards;
+  -o-pickltion        : pickl-reveal 0.3s ease-in-out 1 normal forwards;
+  pickltion           : pickl-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.pickl-picklte-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-pickltion   : pickl-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-pickltion      : pickl-reveal 0.3s ease-in 1 normal forwards;
+  -o-pickltion        : pickl-reveal 0.3s ease-in-out 1 reverse forwards;
+  pickltion           : pickl-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.pickl-picklte-nodelay {
+  -webkit-pickltion-delay: 0;
+  -moz-pickltion-delay: 0;
+  -o-pickltion-delay  : 0;
+  pickltion-delay     : 0;
+}
+@-webkit-keyframes pickl-reveal {
+  0%
+
+  {
+      opacity: 0;
+    }
+
+
+  100%
+
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes pickl-reveal {
+  0%
+
+  {
+      opacity: 0;
+    }
+
+
+  100%
+
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes pickl-reveal {
+  0%
+
+  {
+      opacity: 0;
+    }
+
+
+  100%
+
+  {
+      opacity: 1;
+    }
+}
+@keyframes pickl-reveal {
+  0%
+
+  {
+      opacity: 0;
+    }
+
+
+  100%
+
+  {
+      opacity: 1;
+    }
+}
